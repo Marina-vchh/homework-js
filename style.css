@@ -1,0 +1,30 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(173, 228, 253);
+   padding: 30px;
+}
+
+
+#button{
+}
+.buttonClass{
+   width: 50px;
+   padding: 10px;
+   margin-right: 10px;
+   border: none;
+   cursor: pointer;
+   font-size: 20px;
+   color: #fff;
+   background-color: rgb(143, 188, 255);
+}
+
+.infoClass{
+   color: rgb(124, 124, 124);
+   font-size: 20px;
+   margin-bottom: 30px;
+}
