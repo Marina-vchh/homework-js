@@ -14,7 +14,8 @@ const func = async () => {
          if (i >= buttonId * 10 - 10 && i <= buttonId * 10 - 1) {
             return el
          }
-      })
+      }) 
+      info.innerHTML = ''
          posts.forEach((el) => {
             info.innerHTML += `<div class = 'infoClass'>
                ${el.id}
